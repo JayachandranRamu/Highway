@@ -1,0 +1,35 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+nav>div{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0px 50px;
+}
+nav>div>div{
+display: flex;
+width: 55%;
+align-items: center;
+justify-content: space-between;
+}
+nav a:nth-child(1){
+  color: blue;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
+nav button{
+  padding: 10px;
+
+}
+nav button:nth-child(1){
+
+}
+nav button:nth-child(1){
+  
+}
+
