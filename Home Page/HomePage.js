@@ -8,7 +8,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"3000"
+    "price":"3000","brand":"RR"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=59C4AC75-980E-4BA3-8690-1538225EFC0D",
@@ -18,7 +18,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"325 km/h",
-    "price":"2600"
+    "price":"2600","brand":"F"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=BC16F4A2-5E5D-400D-98BE-5DD5E9C7DC92",
@@ -28,7 +28,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"2500"
+    "price":"2500","brand":"RR"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=8D4E457A-05F7-439C-BFE9-38F26811D973",
@@ -38,7 +38,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"2500"
+    "price":"2500","brand":"RR"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=EC4A0827-7933-45DB-AC44-0E70E01030A6",
@@ -48,7 +48,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"240 km/h",
-    "price":"2500"
+    "price":"2500","brand":"RR"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=EEF5F859-0F70-4D26-9EB5-8011B6DA91F1",
@@ -58,7 +58,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"350 km/h",
-    "price":"2500"
+    "price":"2500","brand":"L"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=6D6AD987-9FE8-4683-8F38-ADB0C07C7CF6",
@@ -68,7 +68,7 @@
     "Gear":"Steptronic",
     "Fuelltype":"Gasoline",
     "topspeed":"350 km/h",
-    "price":"2300"
+    "price":"2300" ,"brand":"L"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=A56B9F07-4A74-4BC0-ABE2-8318EFE69046",
@@ -78,7 +78,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"306 km/h",
-    "price":"2300"
+    "price":"2300","brand":"B"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=022FBBEC-9D3A-4A3B-832B-20245AD8A8C1",
@@ -88,7 +88,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"326 km/h",
-    "price":"2300"
+    "price":"2300" ,"brand":"ML"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=27E3F123-209B-41CA-8599-246F01BB7B29",
@@ -98,7 +98,7 @@
     "Gear":"Steptronic",
     "Fuelltype":"Gasoline",
     "topspeed":"295 km/h",
-    "price":"2200"
+    "price":"2200" ,"brand":"AM"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=93021B81-091B-453B-B82B-9CDAEE4F76DB",
@@ -108,7 +108,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"326 km/h",
-    "price":"2200"
+    "price":"2200","brand":"F"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=30878F8B-719A-4101-BC44-97618E989E6F",
@@ -118,7 +118,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"295 km/h",
-    "price":"2200"
+    "price":"2200","brand":"L"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=ACD8FF89-96BA-4E18-AA8E-96D519E77420",
@@ -128,7 +128,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"300 km/h",
-    "price":"2000"
+    "price":"2000" ,"brand":"AM"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=D30CFBA2-9466-46CD-A39B-2C36817088F1",
@@ -138,7 +138,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"325 km/h",
-    "price":"2000"
+    "price":"2000","brand":"B"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=95EC3726-E29A-4E0F-8BFF-158E56B5BD36",
@@ -148,7 +148,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"325 km/h",
-    "price":"2000"
+    "price":"2000","brand":"L"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=BED3CF76-F21A-4F7F-9FAA-B15DBBFDAE7C",
@@ -158,7 +158,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"305 km/h",
-    "price":"2000"
+    "price":"2000","brand":"L"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=C5D5EF98-B25A-454C-874C-324F0F3172E3",
@@ -168,7 +168,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"290 km/h",
-    "price":"2000"
+    "price":"2000","brand":"B"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=8EC89B99-900F-4FB2-BD9D-925C20CC9E6B",
@@ -178,7 +178,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"310 km/h",
-    "price":"1800"
+    "price":"1800" ,"brand":"P"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=736102C4-B31F-42A8-BF4E-97A1C62BBD8D",
@@ -188,7 +188,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"301 km/h",
-    "price":"1500"
+    "price":"1500","brand":"B"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=073ED7EA-ED67-4563-B166-54C9DF7EDAC1",
@@ -198,7 +198,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"318 km/h",
-    "price":"1500"
+    "price":"1500","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=CF65B375-D1B9-4B99-B45C-396A8521D3EE",
@@ -208,7 +208,7 @@
     "Gear":"Manual",
     "Fuelltype":"Gasoline",
     "topspeed":"295 km/h",
-    "price":"1400"
+    "price":"1400" ,"brand":"P"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=DD3ECBDC-C929-4F80-ADC0-AB42AA590F85",
@@ -218,7 +218,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"225 km/h",
-    "price":"1400"
+    "price":"1400","brand":"LR"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=51AE44B7-E4A1-4B32-99FB-F543F394864A",
@@ -228,7 +228,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"305 km/h",
-    "price":"1400"
+    "price":"1400","brand":"MB"
 
     },
     {
@@ -240,7 +240,7 @@
     "Fuelltype":"Gasoline",
     "topspeed":"318 km/h",
     "price":"1400"
-
+    ,"brand":"A"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=C1773442-B0F0-4CED-9F51-C512780A2B00",
@@ -250,7 +250,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"210 km/h",
-    "price":"1400"
+    "price":"1400","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=229B901F-5A90-448F-92C5-1F91CBBD4784",
@@ -260,7 +260,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"1300"
+    "price":"1300","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=8260E96F-C667-409A-AE11-A11AAA55145E",
@@ -270,7 +270,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"210 km/h",
-    "price":"1200"
+    "price":"1200","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=BCA497B0-DB04-4827-9FC9-3C7770C77AA8",
@@ -280,7 +280,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"210 km/h",
-    "price":"1000"
+    "price":"1000","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=78C352C1-1C1D-4B85-8652-6129ED8C2BBF",
@@ -290,7 +290,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"240 km/h",
-    "price":"1000"
+    "price":"1000","brand":"A"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=F18E5D0A-E039-4360-A53A-23829C32812F",
@@ -300,7 +300,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"230 km/h",
-    "price":"900"
+    "price":"900","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=057E5C18-4EA0-4D13-B85A-2E4D2FD635E7",
@@ -310,7 +310,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"303 km/h",
-    "price":"900"
+    "price":"900" ,"brand":"P"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=7B46C288-9CC2-4CCF-9D4C-88654358CA12",
@@ -320,7 +320,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"900"
+    "price":"900","brand":"LR"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=F95A4B13-D9AA-4184-A8CA-EE7E28E4DBE7",
@@ -330,7 +330,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"220 km/h",
-    "price":"900"
+    "price":"900","brand":"LR"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=A7DCF172-35EA-41FD-9293-C6D7AD332E73",
@@ -340,7 +340,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"240 km/h",
-    "price":"800"
+    "price":"800","brand":"BMW"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=8EBC3BC9-7260-49A9-842A-D6A6EB597CD7",
@@ -350,7 +350,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"900"
+    "price":"900","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=3F9D871D-F448-4BF8-9049-2C0991104FBC",
@@ -360,7 +360,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"700"
+    "price":"700","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=F26C0407-DAFF-4BDB-BEF2-DA113749E037",
@@ -370,7 +370,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"210 km/h",
-    "price":"650"
+    "price":"650","brand":"BMW"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=96D6BF02-F2AE-4FD4-868A-C37CBAB539A2",
@@ -380,7 +380,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"210 km/h",
-    "price":"650"
+    "price":"650","brand":"BMW"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=F1B696A2-47E5-44E5-9402-95831953D187",
@@ -389,7 +389,8 @@
     "Year":"2022",
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
-    "topspeed":"210 km/h"
+    "topspeed":"210 km/h",
+    "price":"620","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=71A290D1-3EE1-4413-9DEF-129B9D8B8A83",
@@ -399,7 +400,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline/Diesel",
     "topspeed":"250 km/h",
-    "price":"600"
+    "price":"600" ,"brand":"P"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=B2C3A020-067C-44F0-B2E7-B88D3F02B900",
@@ -409,7 +410,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"600"
+    "price":"600","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=D3ECFA63-C6E1-4368-BECD-7188F191B86E",
@@ -419,7 +420,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"600"
+    "price":"600","brand":"LR"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=BBC5BC94-061D-4147-A7C0-639DFCBE8831",
@@ -429,7 +430,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"225 km/h",
-    "price":"600"
+    "price":"600","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=4944BACE-564B-416F-B364-0F5E22D48D2D",
@@ -439,7 +440,7 @@
     "Gear":"Steptronic",
     "Fuelltype":"Diesel",
     "topspeed":"225 km/h",
-    "price":"500"
+    "price":"500","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=DB48A827-FEDF-4533-9ED5-FE38AF4991D5",
@@ -449,7 +450,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Diesel",
     "topspeed":"220 km/h",
-    "price":"500"
+    "price":"500","brand":"BMW"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=BBC5BC94-061D-4147-A7C0-639DFCBE8831",
@@ -459,7 +460,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"225 km/h",
-    "price":"500"
+    "price":"500","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=4944BACE-564B-416F-B364-0F5E22D48D2D",
@@ -469,7 +470,7 @@
     "Gear":"Steptronic",
     "Fuelltype":"Diesel",
     "topspeed":"220 km/h",
-    "price":"500"
+    "price":"500","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=D3ECFA63-C6E1-4368-BECD-7188F191B86E",
@@ -479,7 +480,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"500"
+    "price":"500","brand":"LR"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=68669E90-E893-4DB4-B787-8EB9B4B76814",
@@ -489,7 +490,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"400"
+    "price":"400","brand":"A"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=FA5C462D-3221-484A-A920-4BACB2CF6452",
@@ -499,7 +500,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Diesel",
     "topspeed":"240 km/h",
-    "price":"400"
+    "price":"400","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=FB20838C-8D93-459A-A28D-85704A8B0222",
@@ -509,7 +510,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Diesel",
     "topspeed":"241 km/h",
-    "price":"500"
+    "price":"500","brand":"LR"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=97E73801-DD87-4832-AD7E-377C5AB192A6",
@@ -519,7 +520,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Hybrid",
     "topspeed":"235 km/h",
-    "price":"400"
+    "price":"400","brand":"BMW"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=B9309265-F0ED-4AAA-8B59-DBD88645233C",
@@ -529,7 +530,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"230 km/h",
-    "price":"400"
+    "price":"400","brand":"BMW"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=2995E6AC-5889-47C8-9D8A-86A9CB29B17A",
@@ -539,7 +540,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Diesel",
     "topspeed":"250km/h",
-    "price":"300"
+    "price":"300","brand":"V"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=A6709C91-D935-4B3B-92B0-16BEFAF57975",
@@ -549,7 +550,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"220 km/h",
-    "price":"300"
+    "price":"300","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=7C6F3E4F-1435-42F0-A011-A10F4AFC7851",
@@ -559,7 +560,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"250 km/h",
-    "price":"280"
+    "price":"280","brand":"A"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=5D688FA0-1821-4B7C-B8C2-A84E3CFF008A",
@@ -569,7 +570,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"235 km/h",
-    "price":"280"
+    "price":"280","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=F57E3807-C4C0-4D67-BAF1-27AB65AB5404",
@@ -579,7 +580,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"230 km/h",
-    "price":"250"
+    "price":"250","brand":"BMW"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=D0E14749-2720-4BA6-A395-9A2E51C916F6",
@@ -589,7 +590,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"210 km/h",
-    "price":"250"
+    "price":"250","brand":"MB"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=26D41125-CD8E-4ACD-ACBF-C4E97C3AB86F",
@@ -599,7 +600,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"210 km/h",
-    "price":"250"
+    "price":"250","brand":"M"
     },
     {
     "image":"https://aaarentcars.com/File/api/m/i?s=V&i=9A038C74-6C2C-4E0D-B5C6-BAC6E5E2DC19",
@@ -609,7 +610,7 @@
     "Gear":"Automatic",
     "Fuelltype":"Gasoline",
     "topspeed":"200 km/h",
-    "price":"200"
+    "price":"200","brand":"MB"
     }
     ]
     
@@ -645,3 +646,6 @@ document.getElementById("special").append(div);
 
 }
  }
+
+
+ 

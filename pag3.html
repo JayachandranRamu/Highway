@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Highway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Home Page/Home Page.css">
+</head>
+<body>
+    <!-- Nav Bar -->
+<nav class="r10">
+    <div>
+        <img src="./Images/HIGHWAY-ICON-removebg-preview.png" alt="ICON">       
+<div>
+    <a href="./index.html" id="home">Home</a>
+    <a href="/cart.html">Rides</a>
+<a href="">About</a>
+    <a href="">Contact</a>
+    <button>
+        <a href="">Login</a>
+    </button>
+    <button>
+        <a href="">Get Started</a>
+    </button>
+    </div>
+    </div>
+</nav>
+<div id="jin">
+<div id="cart-page">
+
+    <img src="https://aaarentcars.com/File/api/m/i?s=V&i=59C4AC75-980E-4BA3-8690-1538225EFC0D" alt="">
+    
+       <div>
+        <span >
+          
+            <img src="/Images/calendar.png" alt="">
+<span id="y">sdsd</span>        
+        </span>
+        <span >
+            <img src="./Images/speedometer.png" alt="">
+<span id="s">sdsd</span>        
+        </span>
+        <span>
+        <img src="/Images/settings-gears.png" alt="">
+        <span id="g">sdsd</span>        
+                </span>
+            <span>
+            <img src="/Images/gas (1).png" alt="">
+            <span id="f">sdsd</span>        
+                    </span>
+       </div>
+       <div id="chi12">
+        <h2>DESCRIPTION :-</h2>
+        <p> ‎ ‎ ‎ ‎  This is an adapted version of the Phantom and the second model created under the aegis of BMW, The Rolls Royce Ghost will delight all those who are looking to rent a luxury limousine. The remarkable feature of this luxurious vehicle: a V12 twin-turbo together with an 8 speed gearbox to reach 100 km/h in less than 5 seconds.</p>
+       </div>
+
+</div>
+<div id="cart-page1">
+    <h1>ddfgdfgd</h1>
+    <h1>564654</h1>
+    <div id="date1">
+    <div>
+        <p>PICK - UP</p>
+        DATE : <input type="date" value="2023-06-16" min="2023-06-19"> <br>
+        TIME : <input type="time" name="" id="" min="10:00" value="10:00">
+    </div>
+    <div>
+        <p>DROP - OFF</p>
+        DATE : <input type="date" value="2023-06-20" min="2023-12-31"> <br>
+        TIME : <input type="time" name="" id="" value="13:00" max="18:00">
+    </div>
+</div>
+  
+    <button><a href="/payment.html">RENT THE CAR</a></button> <br>
+</div>
+    </div>
+<div id="footer">
+ 
+    <div>
+        <p>GET TO KNOW US</p>
+        <div>
+        <a href="">About Us</a><br>
+        <a href="">Contact Us</a><br>
+        <a href="">Feedback</a><br>
+        <a href="">OUR Services</a><br>
+        <a href="">Reviews</a>
+        </div>
+    </div>
+    <div>
+        <p>OUR BRANCHES</p>
+        <div>
+        <a href="">India</a><br>
+        <a href="">Japan</a><br>
+        <a href="">France</a><br>
+        <a href="">Russia</a><br>
+        <a href="">UAE</a><br>
+        <a href="">Germany</a><br>
+    </div>
+    </div>
+<div>
+    <p>SIGN UP FOR NEWSLETTER</p>
+    <input type="email" name="" id="" placeholder="Enter Your Email Here"><span><div></div></span>
+</div>
+  </div>
+</body>
+</html>
+<script>
+    
+
+    let show=JSON.parse(localStorage.getItem("show"));
+
+document.querySelector("#cart-page img").src=show.image;
+document.querySelector("#cart-page1 h1:nth-child(1)").innerText=show.name;
+document.querySelector("#cart-page1 h1:nth-child(2)").innerText="PRICE : $ "+show.price+"/ DAY";
+ document.getElementById("y").innerText=show.Year;
+ document.getElementById("s").innerText=show.topspeed;
+ document.getElementById("g").innerText=show.Gear;
+ document.getElementById("f").innerText=show.Fuelltype;
+</script>
