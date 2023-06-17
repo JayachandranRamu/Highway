@@ -20,10 +20,10 @@
 <a href="">About</a>
     <a href="">Contact</a>
     <button>
-        <a href="">Login</a>
+        <a href="./login.html">Login</a>
     </button>
     <button>
-        <a href="">Get Started</a>
+        <a href="./signin.html">Get Started</a>
     </button>
     </div>
     </div>
@@ -32,9 +32,9 @@
     <h1>CHOOSE PAYMENT METHOD</h1>
     <div id="pay">
         <div id="pay2">
-<span>CREDIT/DEBIT CARD</span>
-<span>UPI</span>
-<span>NET BANKING</span>
+<span id="DC">CREDIT/DEBIT CARD</span>
+<span id="IPU">UPI</span>
+<span id="teN">NET BANKING</span>
 </div>
 <div>
         </div>
@@ -53,12 +53,16 @@
         <div id="UPI">
             <form action="">
                 UPI ID <input type="year"  maxlength="16" placeholder="srijaya@oksbi.com" required> <br>
-                PASSWORD <input type="password" maxlength="8"  required>
-              <br>  <button id="otp">PAY</button>
+                PASSWORD <input type="password" maxlength="8" placeholder="••••••••"  required>
+              <br>  <button id="otp2">PAY</button>
             </form>
         </div>
         <div id="Net">
-
+            <form action="">
+                USERNAME <input type="year"  maxlength="16" placeholder="srijaya@oksbi.com" required> <br>
+                PASSWORD <input type="password" maxlength="8" placeholder="••••••••"  required>
+              <br>  <button id="otp3">PAY</button>
+            </form>
         </div>
     </div>
     </div>
@@ -96,6 +100,58 @@
 </html>
 <script>
 document.getElementById("otp").addEventListener('click',function(){
-    alert('YOUR PAYMENT IS SUCCESSFULL')
+    alert('YOUR CREDIT/DEBIT PAYMENT IS SUCCESSFULL'+"\n"+'HAVE A LUXURIOUS RIDE WITH US !')
+    window.location.href="/index.html";
+})
+document.getElementById("IPU").addEventListener('click',function(){
+    document.getElementById("CD").style.display="none";
+    document.getElementById("Net").style.display="none";
+    document.getElementById("UPI").style.display="flex";
+    document.getElementById("DC").style.backgroundColor="#F3F4F6";
+    document.getElementById("DC").style.color="black";
+    document.getElementById("DC").style.borderRadius="10px 0px 0px 0px";
+    document.getElementById("IPU").style.backgroundColor="red";
+    document.getElementById("IPU").style.color="white";
+    document.getElementById("IPU").style.borderRadius="0px 0px 0px 0px";
+    document.getElementById("teN").style.backgroundColor="#F3F4F6";
+    document.getElementById("teN").style.color="black";
+    document.getElementById("teN").style.borderRadius="0px 10px 0px 0px";
+})
+document.getElementById("teN").addEventListener('click',function(){
+    document.getElementById("CD").style.display="none";
+    document.getElementById("UPI").style.display="none";
+    document.getElementById("Net").style.display="flex";
+    document.getElementById("DC").style.color="black";
+    document.getElementById("DC").style.borderRadius="10px 0px 0px 0px";
+    document.getElementById("DC").style.backgroundColor="#F3F4F6";
+    document.getElementById("IPU").style.backgroundColor="#F3F4F6";
+    document.getElementById("IPU").style.color="black";
+    document.getElementById("IPU").style.borderRadius="0px 0px 0px 0px";
+    document.getElementById("teN").style.backgroundColor="red";
+    document.getElementById("teN").style.color="white";
+    document.getElementById("teN").style.borderRadius="0px 10px 0px 0px";
+    
+})
+document.getElementById("DC").addEventListener('click',function(){
+    document.getElementById("CD").style.display="flex";
+    document.getElementById("UPI").style.display="none";
+    document.getElementById("Net").style.display="none";
+    document.getElementById("DC").style.backgroundColor="red";
+    document.getElementById("DC").style.color="white";
+    document.getElementById("DC").style.borderRadius="10px 0px 0px 0px";
+    document.getElementById("IPU").style.backgroundColor="#F3F4F6";
+    document.getElementById("IPU").style.color="black";
+    document.getElementById("IPU").style.borderRadius="0px 0px 0px 0px";
+    document.getElementById("teN").style.backgroundColor="#F3F4F6";
+    document.getElementById("teN").style.color="black";
+    document.getElementById("teN").style.borderRadius="0px 10px 0px 0px";
+})
+document.getElementById("otp2").addEventListener('click',function(){
+    alert('YOUR UPI PAYMENT IS SUCCESSFULL'+"\n"+'HAVE A LUXURIOUS RIDE WITH US !')
+    window.location.href="/index.html";
+})
+document.getElementById("otp3").addEventListener('click',function(){
+    alert('YOUR NET BANKING PAYMENT IS SUCCESSFULL'+"\n"+'HAVE A LUXURIOUS RIDE WITH US !')
+    window.location.href="/index.html";
 })
 </script>

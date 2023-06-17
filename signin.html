@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Highway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Home Page/Home Page.css">
+</head>
+<style>
+</style>
+<body>
+    <!-- Nav Bar -->
+    <div id="pl1">
+<nav class="r10">
+    <div>
+        <img src="./Images/HIGHWAY-ICON-removebg-preview.png" alt="ICON">       
+<div>
+    <a href="./index.html" id="home">Home</a>
+    <a href="/cart.html">Rides</a>
+<a href="">About</a>
+    <a href="">Contact</a>
+    <button>
+        <a href="/login.html">Login</a>
+    </button>
+    <button>
+        <a href="/signin.html">Get Started</a>
+    </button>
+    </div>
+    </div>
+</nav>
+
+<div id="entire1">
+    <div class="div">
+        <h1>Signin To Highway</h1>
+    </div>
+    <form>
+<form>
+    <div class="formdesign">
+        <label for=""> NAME</label> <br>
+    <input type="text" placeholder="Enter name here" id="name" placeholder="Enter Your Name Here" required>
+</div>
+   <div class="formdesign">
+    <label for=""> EMAIL</label> <br>
+    <input type="email" name="" id="email" placeholder="Enter Your Email Here" value="@gmail.com" required>
+</div>
+    <div class="formdesign">
+        <label for=""> MOBIL NO</label> <br>
+    <input type="number" name="" id="number" placeholder="Enter Your Mobile No Here" required>
+</div>
+    <div class="formdesign"> 
+        <label for="">NEW PASSWORD</label> <br>
+   <input type="password" name="" id="password" placeholder="Enter Your New Password Here" maxlength="8" required>
+</div>
+    <div class="formdesign">
+        <label for="">CONFIRM PASSWORD</label> <br>
+   <input type="password" name="" id="cpassword" placeholder="Enter Your Confirm Password Here" maxlength="8" required>
+</div>
+<input type="submit" value="SUBMIT" id="st1">
+</form>
+</div>
+</div>
+
+</body>
+</html>
+<script>
+    
+    let form=document.querySelector("form");
+    let name=document.querySelector("#name");
+    let email=document.querySelector("#email");
+    let number=document.querySelector("#number");
+    let password=document.querySelector("#password");
+    let currentpassword=document.querySelector("#cpassword");
+    let submit=document.querySelector("#st1");
+    
+    let arr=JSON.parse(localStorage.getItem("formdata"))||[];
+    form.addEventListener("submit",function(){
+        event.preventDefault();
+
+        let flag=true;
+        if(password.value!=currentpassword.value){
+            alert("Password is Not Matching");
+            flag=false;
+        }
+
+
+        if(arr.length!=0){
+            arr.forEach(function(a){
+                if(a.email===email.value){
+                    alert("Email is Already Used !");
+                    flag=false;
+                }
+            })
+        }
+        
+        if(flag==true){
+            let obj={
+            name:name.value,
+            email:email.value,
+            number:number.value,
+            password:password.value,
+            currentpassword:currentpassword.value
+        }
+        arr.push(obj);
+        alert("You Have Signined Successfully"+"\n"+"Now You Can Login !");
+        localStorage.setItem("formdata",JSON.stringify(arr));
+        window.location.href="/login.html";
+        }
+        
+    })
+    
+</script>

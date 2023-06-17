@@ -271,7 +271,7 @@ padding-bottom: 50px;
   background-color: #F3F4F6;
   color:#000000 ;
   width: 100%;
-  height: 450px;
+  height: 350px;
   font-weight: bolder;
   display: flex;
   justify-content: space-around;
@@ -297,7 +297,7 @@ padding-bottom: 50px;
   border: none;
   width:295px;
   margin: 10px 0px;
-  background-color: #F3F4F6;
+  background-color: #ffffff;
   border: 1px solid black;
 }
 .r10 div:nth-child(2){
@@ -546,7 +546,7 @@ border:1px solid black;
 }
 #CD{
   font-size: 18px;
-  display: none;
+  /* display: none; */
 }
 #CD input:nth-child(1){
   padding: 8px 15px;
@@ -568,7 +568,7 @@ border:1px solid black;
 #CD button{
   margin: 20px 200px;
   border-radius: 10px;
-  background-color:#df262f;
+  background-color:#ff000d;
   color: #F3F4F6;
   border-color: white;
   font-size: 20px;
@@ -585,30 +585,195 @@ border:1px solid black;
   box-sizing: border-box;
 }
 #UPI{
-  font-size: 18px;
-  /* display: none; */
+  font-size: 16px;
+  display: none;
 }
 #UPI input:nth-child(1){
   padding: 8px 15px;
   text-align: center;
   margin: 15px;
   border-radius: 8px;
+  width: 455px;
 }
 #UPI input:nth-child(3){
   padding: 8px 20px;
   text-align: center;
-  margin: 80px ;
-  width: 200px;
+  margin: 20px ;
+  width: 400px;
   border-radius: 8px;
 }
 
 #UPI button{
   margin: 20px 200px;
   border-radius: 10px;
-  background-color:#df262f;
+  background-color:#ff000d;
   color: #F3F4F6;
   border-color: white;
   font-size: 20px;
   padding: 10px 40px;
 }
 
+#Net{
+  height: 400px;
+  border-top:1px solid #000000;
+  border-radius:0px 0px 11px 11px;
+  background-color: #F3F4F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+#Net{
+  font-size: 16px;
+  display: none;
+}
+#Net input:nth-child(1){
+  padding: 8px 15px;
+  text-align: center;
+  margin: 15px;
+  border-radius: 8px;
+  width: 415px;
+}
+#Net input:nth-child(3){
+  padding: 8px 20px;
+  text-align: center;
+  margin: 20px ;
+  width: 400px;
+  border-radius: 8px;
+}
+
+#Net button{
+  margin: 20px 200px;
+  border-radius: 10px;
+  background-color:#ff000d;
+  color: #F3F4F6;
+  border-color: white;
+  font-size: 20px;
+  padding: 10px 40px;
+}
+#IPU:hover{
+ cursor: pointer;
+ color: white;
+ font-size: 18px;
+ background-color: red;
+
+ border-radius: 0;
+}
+#teN:hover{
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  background-color: red;
+  border-radius: 0;
+  border-top-right-radius: 10px;
+ }
+ #DC:hover{
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  background-color:red;
+ 
+  border-radius: 0;
+  border-top-left-radius: 10px;
+ }
+ #pl{
+  background-image: url(/Images/Car\ Website\ –\ 1@2x.png);
+  height: 750px;
+  background-size: cover;
+  width: 100%;
+ }
+ #entire{
+  width: 50%;
+  background-color: none;
+ }
+ #entire{
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  align-items: center;
+ }
+ #entire h1{
+  /* font-family: 'Abhaya Libre', serif; */
+  font-size:49px;
+  text-align: center;
+  font-weight: 700;
+  margin: 60px 0px;
+  margin-left: 10px;
+ }
+ #entire input{
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 350px;
+  background-color: white;
+ }
+ #entire img{
+  width: 40px;
+  margin-bottom: -17px;
+  margin-right: 5px;
+ }
+ #entire #lo{
+  width: 39px;
+  margin-right: 5px;
+  margin-bottom: -14px;
+ } 
+
+#entire form #st{
+  width: 150px;
+  margin: 30px 130px;
+  background-color: #df262f;
+  color: white;
+  height: 55px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+#pl1{
+  background-image: url(/Images/Background-home.png);
+  height: 800px;
+  background-size: cover;
+  width: 100%;
+ }
+ #entire1{
+  width: 50%;
+  background-color: none;
+ }
+ #entire1{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+ }
+ #entire1 h1{
+  /* font-family: 'Abhaya Libre', serif; */
+  font-size:49px;
+  text-align: center;
+  font-weight: 700;
+  margin: 25px 0px;
+  margin-left: 10px;
+ }
+ #entire1 input{
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  width: 350px;
+  background-color: white;
+ }
+ #entire1 img{
+  width: 40px;
+  margin-bottom: -17px;
+  margin-right: 5px;
+ }
+ #entire label{
+
+font-size: 12px;
+ } 
+
+#entire1 form #st1{
+  width: 200px;
+  margin: 10px 60px;
+  background-color: #df262f;
+  color: white;
+  height: 55px;
+  font-size: 20px;
+  border-radius: 15px;
+}
