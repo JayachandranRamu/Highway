@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Highway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Home Page/Home Page.css">
+</head>
+<body>
+    <!-- Nav Bar -->
+<nav class="r10">
+    <div>
+        <img src="./Images/HIGHWAY-ICON-removebg-preview.png" alt="ICON">       
+<div>
+    <a href="./index.html" id="home">Home</a>
+    <a href="/cart.html">Rides</a>
+<a href="">About</a>
+    <a href="">Contact</a>
+    <button>
+        <a href="./login.html">Login</a>
+    </button>
+    <button>
+        <a href="./signin.html">Get Started</a>
+    </button>
+    </div>
+    </div>
+</nav>
+<div id="h0">
+    <h1>CHOOSE PAYMENT METHOD</h1>
+    <div id="pay">
+        <div id="pay2">
+<span id="DC">CREDIT/DEBIT CARD</span>
+<span id="IPU">UPI</span>
+<span id="teN">NET BANKING</span>
+</div>
+<div>
+        </div>
+        <div id="CD">
+<div>
+    <form action="" id="f1">
+        CREDIT/DEBIT CARD NUMBER <input type="year"  maxlength="16" placeholder="4563759274539450" required> <br>
+        EXPIRY YEAR <input type="year" maxlength="4" placeholder="YYYY" required>
+        CVV<input type="year" maxlength="3" placeholder="123" required>
+      <br>  <input type="submit" value="PAY" id="otp">
+    </form>
+    
+    
+</div>
+        </div>
+        <div id="UPI">
+            <form action="" id="f2">
+                UPI ID <input type="year"  maxlength="16" placeholder="srijaya@oksbi.com" required> <br>
+                PASSWORD <input type="password" maxlength="8" placeholder="••••••••"  required>
+              <br>  <input type="submit" value="PAY" id="otp2">
+            </form>
+        </div>
+        <div id="Net">
+            <form action="" id="f2">
+                USERNAME <input type="year"  maxlength="16" placeholder="srijaya@oksbi.com" required> <br>
+                PASSWORD <input type="password" maxlength="8" placeholder="••••••••"  required>
+              <br>  <input type="submit" value="PAY" id="otp3">
+            </form>
+        </div>
+    </div>
+    </div>
+</div>
+
+<div id="footer">
+ 
+    <div>
+        <p>GET TO KNOW US</p>
+        <div>
+        <a href="">About Us</a><br>
+        <a href="">Contact Us</a><br>
+        <a href="">Feedback</a><br>
+        <a href="">OUR Services</a><br>
+        <a href="">Reviews</a>
+        </div>
+    </div>
+    <div>
+        <p>OUR BRANCHES</p>
+        <div>
+        <a href="">India</a><br>
+        <a href="">Japan</a><br>
+        <a href="">France</a><br>
+        <a href="">Russia</a><br>
+        <a href="">UAE</a><br>
+        <a href="">Germany</a><br>
+    </div>
+    </div>
+<div>
+    <p>SIGN UP FOR NEWSLETTER</p>
+    <input type="email" name="" id="" placeholder="Enter Your Email Here">
+</div>
+  </div>
+</body>
+</html>
+<script>
+
+document.getElementById("otp").addEventListener('click',function(){
+    alert('YOUR CREDIT/DEBIT PAYMENT IS SUCCESSFULL'+"\n"+'HAVE A LUXURIOUS RIDE WITH US !')
+    window.location.href="/index.html";
+})
+document.getElementById("otp2").addEventListener('click',function(){
+    alert('YOUR UPI PAYMENT IS SUCCESSFULL'+"\n"+'HAVE A LUXURIOUS RIDE WITH US !')
+    window.location.href="/index.html";
+})
+document.getElementById("otp3").addEventListener('click',function(){
+    alert('YOUR NET BANKING PAYMENT IS SUCCESSFULL'+"\n"+'HAVE A LUXURIOUS RIDE WITH US !')
+    window.location.href="/index.html";
+})
+
+document.getElementById("IPU").addEventListener('click',function(){
+    document.getElementById("CD").style.display="none";
+    document.getElementById("Net").style.display="none";
+    document.getElementById("UPI").style.display="flex";
+    document.getElementById("DC").style.backgroundColor="#F3F4F6";
+    document.getElementById("DC").style.color="black";
+    document.getElementById("DC").style.borderRadius="10px 0px 0px 0px";
+    document.getElementById("IPU").style.backgroundColor="red";
+    document.getElementById("IPU").style.color="white";
+    document.getElementById("IPU").style.borderRadius="0px 0px 0px 0px";
+    document.getElementById("teN").style.backgroundColor="#F3F4F6";
+    document.getElementById("teN").style.color="black";
+    document.getElementById("teN").style.borderRadius="0px 10px 0px 0px";
+
+})
+document.getElementById("teN").addEventListener('click',function(){
+    document.getElementById("CD").style.display="none";
+    document.getElementById("UPI").style.display="none";
+    document.getElementById("Net").style.display="flex";
+    document.getElementById("DC").style.color="black";
+    document.getElementById("DC").style.borderRadius="10px 0px 0px 0px";
+    document.getElementById("DC").style.backgroundColor="#F3F4F6";
+    document.getElementById("IPU").style.backgroundColor="#F3F4F6";
+    document.getElementById("IPU").style.color="black";
+    document.getElementById("IPU").style.borderRadius="0px 0px 0px 0px";
+    document.getElementById("teN").style.backgroundColor="red";
+    document.getElementById("teN").style.color="white";
+    document.getElementById("teN").style.borderRadius="0px 10px 0px 0px";
+
+})
+document.getElementById("DC").addEventListener('click',function(){
+    document.getElementById("CD").style.display="flex";
+    document.getElementById("UPI").style.display="none";
+    document.getElementById("Net").style.display="none";
+    document.getElementById("DC").style.backgroundColor="red";
+    document.getElementById("DC").style.color="white";
+    document.getElementById("DC").style.borderRadius="10px 0px 0px 0px";
+    document.getElementById("IPU").style.backgroundColor="#F3F4F6";
+    document.getElementById("IPU").style.color="black";
+    document.getElementById("IPU").style.borderRadius="0px 0px 0px 0px";
+    document.getElementById("teN").style.backgroundColor="#F3F4F6";
+    document.getElementById("teN").style.color="black";
+    document.getElementById("teN").style.borderRadius="0px 10px 0px 0px";
+
+})
+
+</script>
