@@ -73,7 +73,7 @@ let email=document.querySelector("#email");
 
 let password=document.querySelector("#password");
 
-let array=[];
+let array=JSON.parse(localStorage.getItem('log')) || [];
 form.addEventListener("submit",function(){
     event.preventDefault();
 
@@ -84,28 +84,39 @@ form.addEventListener("submit",function(){
     array.push(obj);
 
 let i=0;
+let count=false;
+let pas=false;
+let ma=false;
+
     ls.forEach(function(e){
-
-        if(array[i].email!=e.email){
-            alert("This Mail ID Is Not Registered or Incorrect"+"\n"+"Please Check Once Again !");
-            // array.splice(N-1,1);
-           
+ console.log(array[array.length-1].email,array[array.length-1].password,e.email,e.password,e);
+        if(array[array.length-1].email==e.email && array[array.length-1].password==e.password){
+            count=true;
+            
+        }else if(array[array.length-1].email==e.email){
+ma=true;
+        }else if(array[array.length-1].password==e.password){
+pas=true;
         }
-       else if(array[i].password!=e.password){
-            alert("Password IS Incorrect"+"\n"+"Please Check Once Again !");
-            // array.splice(N-1,1);
-           
-        }
-       else{
-            alert("Logged In Sucessfully!");
-            i++;
-            window.location.href="/index.html";
-            localStorage.setItem('log',JSON.stringify(array));
-        }
-
+    })
+    console.log(count,pas,ma);
+    if(count==true){ 
+        alert("YOU ARE SUCCESSFULLY LOGINED!")
+        window.location.href="/index.html";
+        localStorage.setItem('log',JSON.stringify(array));
+    }else if(pas==false && ma==true){
+        array.splice(array.length-1,1);
+        alert("Your Password Is Incorrect !"+"\n"+"Kindly Check The Password Once Again !");
+    }else if(ma==false && pas==true){
+        alert("Your Email ID Is Incorrect !"+"\n"+"Kindly Check The Email ID Once Again !");
+        array.splice(array.length-1,1);
+    }
+    else{
+alert("Your Credential Is Incorrect!");
+array.splice(array.length-1,1);
     }
     
-    )
+    
    
 })
     

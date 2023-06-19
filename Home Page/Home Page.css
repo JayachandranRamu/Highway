@@ -552,6 +552,7 @@ border:1px solid black;
   padding: 8px 15px;
   text-align: center;
   margin: 15px;
+ 
 }
 #CD input:nth-child(3){
   padding: 8px 20px;
@@ -565,7 +566,7 @@ border:1px solid black;
   margin: 15px;
   width: 162px;
 }
-#CD button{
+#CD #otp{
   margin: 20px 200px;
   border-radius: 10px;
   background-color:#ff000d;
@@ -592,7 +593,6 @@ border:1px solid black;
   padding: 8px 15px;
   text-align: center;
   margin: 15px;
-  border-radius: 8px;
   width: 455px;
 }
 #UPI input:nth-child(3){
@@ -600,10 +600,9 @@ border:1px solid black;
   text-align: center;
   margin: 20px ;
   width: 400px;
-  border-radius: 8px;
 }
 
-#UPI button{
+#UPI #otp2{
   margin: 20px 200px;
   border-radius: 10px;
   background-color:#ff000d;
@@ -631,7 +630,6 @@ border:1px solid black;
   padding: 8px 15px;
   text-align: center;
   margin: 15px;
-  border-radius: 8px;
   width: 415px;
 }
 #Net input:nth-child(3){
@@ -639,10 +637,9 @@ border:1px solid black;
   text-align: center;
   margin: 20px ;
   width: 400px;
-  border-radius: 8px;
 }
 
-#Net button{
+#Net #otp3{
   margin: 20px 200px;
   border-radius: 10px;
   background-color:#ff000d;

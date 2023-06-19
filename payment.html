@@ -40,28 +40,28 @@
         </div>
         <div id="CD">
 <div>
-    <form action="">
+    <form action="" id="f1">
         CREDIT/DEBIT CARD NUMBER <input type="year"  maxlength="16" placeholder="4563759274539450" required> <br>
-        EXPIRY YEAR <input type="year" maxlength="4" placeholder="2026" required>
-        CVV<input type="year" maxlength="3" placeholder="879" required>
-      <br>  <button id="otp">PAY</button>
+        EXPIRY YEAR <input type="year" maxlength="4" placeholder="YYYY" required>
+        CVV<input type="year" maxlength="3" placeholder="123" required>
+      <br>  <input type="submit" value="PAY" id="otp">
     </form>
     
     
 </div>
         </div>
         <div id="UPI">
-            <form action="">
+            <form action="" id="f2">
                 UPI ID <input type="year"  maxlength="16" placeholder="srijaya@oksbi.com" required> <br>
                 PASSWORD <input type="password" maxlength="8" placeholder="••••••••"  required>
-              <br>  <button id="otp2">PAY</button>
+              <br>  <input type="submit" value="PAY" id="otp2">
             </form>
         </div>
         <div id="Net">
-            <form action="">
+            <form action="" id="f2">
                 USERNAME <input type="year"  maxlength="16" placeholder="srijaya@oksbi.com" required> <br>
                 PASSWORD <input type="password" maxlength="8" placeholder="••••••••"  required>
-              <br>  <button id="otp3">PAY</button>
+              <br>  <input type="submit" value="PAY" id="otp3">
             </form>
         </div>
     </div>
@@ -99,10 +99,20 @@
 </body>
 </html>
 <script>
+
 document.getElementById("otp").addEventListener('click',function(){
     alert('YOUR CREDIT/DEBIT PAYMENT IS SUCCESSFULL'+"\n"+'HAVE A LUXURIOUS RIDE WITH US !')
     window.location.href="/index.html";
 })
+document.getElementById("otp2").addEventListener('click',function(){
+    alert('YOUR UPI PAYMENT IS SUCCESSFULL'+"\n"+'HAVE A LUXURIOUS RIDE WITH US !')
+    window.location.href="/index.html";
+})
+document.getElementById("otp3").addEventListener('click',function(){
+    alert('YOUR NET BANKING PAYMENT IS SUCCESSFULL'+"\n"+'HAVE A LUXURIOUS RIDE WITH US !')
+    window.location.href="/index.html";
+})
+
 document.getElementById("IPU").addEventListener('click',function(){
     document.getElementById("CD").style.display="none";
     document.getElementById("Net").style.display="none";
@@ -116,6 +126,7 @@ document.getElementById("IPU").addEventListener('click',function(){
     document.getElementById("teN").style.backgroundColor="#F3F4F6";
     document.getElementById("teN").style.color="black";
     document.getElementById("teN").style.borderRadius="0px 10px 0px 0px";
+
 })
 document.getElementById("teN").addEventListener('click',function(){
     document.getElementById("CD").style.display="none";
@@ -130,7 +141,7 @@ document.getElementById("teN").addEventListener('click',function(){
     document.getElementById("teN").style.backgroundColor="red";
     document.getElementById("teN").style.color="white";
     document.getElementById("teN").style.borderRadius="0px 10px 0px 0px";
-    
+
 })
 document.getElementById("DC").addEventListener('click',function(){
     document.getElementById("CD").style.display="flex";
@@ -145,13 +156,7 @@ document.getElementById("DC").addEventListener('click',function(){
     document.getElementById("teN").style.backgroundColor="#F3F4F6";
     document.getElementById("teN").style.color="black";
     document.getElementById("teN").style.borderRadius="0px 10px 0px 0px";
+
 })
-document.getElementById("otp2").addEventListener('click',function(){
-    alert('YOUR UPI PAYMENT IS SUCCESSFULL'+"\n"+'HAVE A LUXURIOUS RIDE WITH US !')
-    window.location.href="/index.html";
-})
-document.getElementById("otp3").addEventListener('click',function(){
-    alert('YOUR NET BANKING PAYMENT IS SUCCESSFULL'+"\n"+'HAVE A LUXURIOUS RIDE WITH US !')
-    window.location.href="/index.html";
-})
+
 </script>
