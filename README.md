@@ -6,7 +6,7 @@
 
 # Highway
 
-**Netlify :**  [Connect Website][(https://verdant-melomakarona-f2aa0d.netlify.app/)]
+**Netlify :**  https://verdant-melomakarona-f2aa0d.netlify.app/
 ## Tech Stack
 
 **Front-End:** HTML | CSS | JavaScript
